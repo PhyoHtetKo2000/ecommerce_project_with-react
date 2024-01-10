@@ -21,9 +21,9 @@ const { removeFromCart, incresAmount,decreseAmount } = useContext(CartContet);
         </div>
         {/* title and remove icons */}
         <div className="">
-          <div className="flex gap-20 mb-2">
+          <div className="flex gap-16 mb-2">
             <Link
-              className=" text-sm uppercase font-semibold hover:underline max-w-[100px] lg:max-w-[240px] xl:max-w-[240px] md:max-w-[240px]"
+              className=" text-sm uppercase font-semibold hover:underline max-w-[150px] lg:max-w-[240px] xl:max-w-[240px] md:max-w-[240px]"
               to={`/product/${id}`}
             >
               {title}

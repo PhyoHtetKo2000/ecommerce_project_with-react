@@ -10,7 +10,6 @@ const CartProvider = ({children}) => {
  
   // total state
   const [total,setTotal] = useState(0)
-
   useEffect(()=>{
     const total = cart.reduce((pv,cv)=>{
       return pv+ (cv.price * cv.amount)
